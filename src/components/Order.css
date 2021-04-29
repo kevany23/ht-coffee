@@ -1,0 +1,41 @@
+#orderSection {
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+#cartDiv {
+  width: 240px;
+  align-items: center;
+}
+
+#orderPOS {
+  align-items: center;
+  border: 1px solid black;
+  width: 650px;
+}
+
+#orderCategories {
+  flex-direction: row;
+}
+
+.orderPanel {
+  padding: 15px;
+  border: 1px solid black;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 10px;
+}
+
+.categoryPanel {
+  background-color: lightgreen;
+}
+
+.itemPanel {
+  background-color: yellow;
+}
+
+.orderItemDiv {
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
